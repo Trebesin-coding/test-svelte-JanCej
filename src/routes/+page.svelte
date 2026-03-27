@@ -1,16 +1,20 @@
 <script>
+import Button from "../components/Button.svelte";
+import Hedding from "../components/Hedding.svelte";
 // Až vytvoříš komponent, nezapomeň jej importovat
 // Emoji se vytváří pomocí windows + . nebo je můžeš zkopírovat odsud 🙂 😢
 </script>
 
 <div class="headings">
-    <!-- Sem patří komponenty s nadpisy -->
+    <Heddings heddingTxt={"Svelte"}/>
+    <Heddings heddingTxt={"Je"}/>
+    <Heddings heddingTxt={"Brnkacka"}/>
 </div>
 
 <div class="container">
-    <p>Zde se bude zobrazovat počet kliknutí</p> 
+    <p>Počet: {Pocitani}</p> 
     <div class="buttons">
-        <!-- Sem patří tlačítka -->
+    <Button></Button>
     </div>
 </div>
 
@@ -23,8 +27,7 @@
 
 <style>
 
-    /* CSS není potřeba upravovat */
-
+    
 * {
     font-family: monospace;
 }
