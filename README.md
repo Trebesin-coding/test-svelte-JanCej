@@ -31,4 +31,10 @@ CSS není potřeba upravovat
 
 Nápověda pro syntax props: `let { ukazka } = $props()`
 
-### Počet bodu: ?/100
+### Počet bodu: 51/100
+
+- hedding?
+- button -> declarování proměnné s +=
+- hedding vs heddings
+- props heddingText vs heddingTxt
+
